@@ -13,7 +13,7 @@ const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
 				<title>Orbitto - The spacest crypto game ever</title>
 				<meta name="description" content="The spacest crypto game ever." />
 				<meta property="og:url" content={'https://orbitto.space'} key="ogurl" />
-				<meta property="og:image" content={'/meta.png'} key="ogimage" />
+				<meta property="og:image" content={'/images/meta.png'} key="ogimage" />
 				<meta property="og:site_name" content={'Orbitto'} key="ogsitename" />
 				<meta property="og:title" content={'Orbitto'} key="ogtitle" />
 				<meta
@@ -29,7 +29,7 @@ const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
 					property="twitter:description"
 					content="The spacest crypto game ever."
 				/>
-				<meta property="twitter:image" content={'/meta.png'} />
+				<meta property="twitter:image" content={'/images/meta.png'} />
 			</Head>
 			<GlobalStyle />
 			<Component {...pageProps} />
