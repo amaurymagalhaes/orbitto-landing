@@ -43,7 +43,6 @@ const Landing: NextPage = () => {
 					>
 						<FaTwitter size={iconSize} />
 					</SocialMediaButton>
-
 					<SocialMediaButton
 						href="https://github.com/Orbitto"
 						target="_blank"
