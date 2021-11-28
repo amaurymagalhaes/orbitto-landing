@@ -13,8 +13,8 @@ export const SkyContainer = styled.div`
 		height: 2px;
 		background: linear-gradient(-45deg, #ffffff, rgba(0, 0, 255, 0));
 		filter: drop-shadow(0 0 6px #ffffff);
-		animation: tail 3000ms ease-in-out infinite,
-			shooting 3000ms ease-in-out infinite;
+		animation: tail 5000ms ease-in-out infinite,
+			shooting 5000ms ease-in-out infinite;
 	}
 
 	.star::before,
@@ -31,7 +31,7 @@ export const SkyContainer = styled.div`
 			rgba(0, 0, 255, 0)
 		);
 		transform: translateX(50%) rotateZ(45deg);
-		animation: shining 3000ms ease-in-out infinite;
+		animation: shining 5000ms ease-in-out infinite;
 	}
 
 	.star::after {
@@ -40,7 +40,7 @@ export const SkyContainer = styled.div`
 
 	.star:nth-child(1) {
 		top: calc(50% - 20px);
-		left: calc(50% - 30px);
+		left: calc(0% - 30px);
 		animation-delay: 650ms;
 	}
 	.star:nth-child(1)::before,
@@ -50,7 +50,7 @@ export const SkyContainer = styled.div`
 
 	.star:nth-child(2) {
 		top: calc(50% - -50px);
-		left: calc(50% - 190px);
+		left: calc(0% - 30px);
 		animation-delay: 150ms;
 	}
 	.star:nth-child(2)::before,
@@ -60,7 +60,7 @@ export const SkyContainer = styled.div`
 
 	.star:nth-child(3) {
 		top: calc(50% - -90px);
-		left: calc(50% - 200px);
+		left: calc(0% - 30px);
 		animation-delay: 1600ms;
 	}
 	.star:nth-child(3)::before,
@@ -70,7 +70,7 @@ export const SkyContainer = styled.div`
 
 	.star:nth-child(4) {
 		top: calc(50% - 50px);
-		left: calc(50% - 250px);
+		left: calc(0% - 30px);
 		animation-delay: 4700ms;
 	}
 	.star:nth-child(4)::before,
@@ -80,7 +80,7 @@ export const SkyContainer = styled.div`
 
 	.star:nth-child(5) {
 		top: calc(50% - -190px);
-		left: calc(50% - 200px);
+		left: calc(0% - 30px);
 		animation-delay: 2100ms;
 	}
 	.star:nth-child(5)::before,
@@ -120,7 +120,7 @@ export const SkyContainer = styled.div`
 			transform: translateX(0);
 		}
 		100% {
-			transform: translateX(100vh);
+			transform: translateX(100vw);
 		}
 	}
 `;
