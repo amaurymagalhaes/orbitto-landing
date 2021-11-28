@@ -26,6 +26,7 @@ const Landing: NextPage = () => {
 				<LogoImage src="/images/logo.png" />
 				<ButtonsContainer>
 					<Button disabled>Play</Button>
+					<Button disabled>Pre-sale</Button>
 					<Button>Whitepaper</Button>
 				</ButtonsContainer>
 				<SocialMediasContainer>
