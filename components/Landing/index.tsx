@@ -1,6 +1,7 @@
 import Button from 'components/Button';
 import ShootingStars from 'components/ShootingStars';
 import StarsBackground from 'components/StarsBackground';
+import StarsLayout from 'layouts/starslayout';
 import type { NextPage } from 'next';
 import Link from 'next/link';
 import { FaDiscord, FaTwitter, FaInstagram, FaGithub } from 'react-icons/fa';
@@ -18,15 +19,14 @@ const Landing: NextPage = () => {
 	const iconSize = 40;
 
 	return (
-		<Background>
-			<ShootingStars />
-			<NightSkyImage src="/images/night-sky.png" />
-			<StarsBackground />
+		<StarsLayout>
 			<InteractContainer>
 				<LogoImage src="/images/logo.png" />
 				<ButtonsContainer>
 					<Button disabled>Play</Button>
-					<Button disabled>Pre-sale</Button>
+					<Link href="/presale">
+						<Button>Pre-sale</Button>
+					</Link>
 					<Button>Whitepaper</Button>
 				</ButtonsContainer>
 				<SocialMediasContainer>
@@ -53,7 +53,7 @@ const Landing: NextPage = () => {
 					</SocialMediaButton>
 				</SocialMediasContainer>
 			</InteractContainer>
-		</Background>
+		</StarsLayout>
 	);
 };
 
