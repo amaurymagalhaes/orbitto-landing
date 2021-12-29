@@ -27,7 +27,13 @@ const Landing: NextPage = () => {
 					<Link href="/presale">
 						<Button>Pre-sale</Button>
 					</Link>
-					<Button>Whitepaper</Button>
+					<a
+						href="https://docs.orbitto.space"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						<Button>Whitepaper</Button>
+					</a>
 				</ButtonsContainer>
 				<SocialMediasContainer>
 					<SocialMediaButton

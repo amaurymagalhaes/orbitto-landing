@@ -3,8 +3,8 @@ import styled from 'styled-components';
 export const Background = styled.button`
 	margin-left: 1rem;
 	margin-right: 1rem;
-	padding-left: 3rem;
-	padding-right: 3rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
 	padding-top: 0.5rem;
 	padding-bottom: 0.5rem;
 	border-radius: 15px;
