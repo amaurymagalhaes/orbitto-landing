@@ -20,6 +20,7 @@ interface ContainerProps {
 export const Box = styled.div`
 	height: max-content;
 	width: 100%;
+	margin: 10px 0px;
 `;
 
 export const Container = styled.div<ContainerProps>`
@@ -55,5 +56,6 @@ export const ProgressText = styled.h3<ProgressTextProps>`
 	color: ${({ progressColor, theme }) =>
 		progressColor ? progressColor : theme.colors.background};
 	margin-bottom: 5px;
-	font-size: 24px;
+	font-size: 18px;
+	text-align: end;
 `;

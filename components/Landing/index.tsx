@@ -1,7 +1,7 @@
 import Button from 'components/Button';
 import ShootingStars from 'components/ShootingStars';
 import StarsBackground from 'components/StarsBackground';
-import StarsLayout from 'layouts/starslayout';
+import StarsLayout from 'layouts/StarsLayout';
 import type { NextPage } from 'next';
 import Link from 'next/link';
 import { FaDiscord, FaTwitter, FaInstagram, FaGithub } from 'react-icons/fa';
@@ -25,7 +25,7 @@ const Landing: NextPage = () => {
 				<ButtonsContainer>
 					<Button disabled>Play</Button>
 					<Link href="/presale">
-						<Button>Pre-sale</Button>
+						<Button>Seed Sale</Button>
 					</Link>
 					<a
 						href="https://docs.orbitto.space"

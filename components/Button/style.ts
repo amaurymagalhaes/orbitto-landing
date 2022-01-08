@@ -16,9 +16,11 @@ export const Background = styled.button`
 	font-weight: bold;
 	font-size: 32px;
 	line-height: 42px;
+	transition: 0.4s;
 	:hover {
 		cursor: pointer;
 		color: ${({ theme }) => theme.colors.background};
+		box-shadow: 0px 4px 5px rgba(0, 0, 0, 1);
 	}
 	:disabled {
 		cursor: not-allowed;
